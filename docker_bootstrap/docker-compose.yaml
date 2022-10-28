@@ -2,7 +2,7 @@ version: "3"
 
 services:
 
-  tb3_nav2_demo:
+  tb3_nav2_demo_docker:
     build:
       context: .
       dockerfile: Dockerfiles/tb3_nav2_demo_Dockerfile

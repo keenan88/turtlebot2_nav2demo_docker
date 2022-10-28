@@ -18,6 +18,7 @@ RUN mkdir /dev_ws \
  && mkdir /dev_ws/src
 WORKDIR /dev_ws
 
+ARG CACHEBUST=2
 RUN git clone https://github.com/keenan88/turtlebot3_ros2_nav2_demo.git; \
 chmod 777 -R turtlebot3_ros2_nav2_demo; \
 rosdep update && rosdep install --from-path turtlebot3_ros2_nav2_demo --ignore-src -y
