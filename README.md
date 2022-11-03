@@ -1,7 +1,7 @@
 Build Instructions:
 
 1. Clone this repo
-2. cd into the root dir of the repo
+2. cd into the turtlebot3_nav2demo_docker/docker_bootstrap dir of the repo
 3. Run $docker compose up -d
 
 This will bring up a 2-robot navigation demo. You can use RVIZ to give target positions to the robots. 
